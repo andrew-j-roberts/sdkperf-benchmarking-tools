@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  # gui:
+  #   build: ./gui
+  control-node:
+    build: ./terraform-ansible-control-node
+    volumes:
+      - ./config:/config

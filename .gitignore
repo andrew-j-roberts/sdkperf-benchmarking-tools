@@ -1,0 +1,9 @@
+# secrets
+.env
+*.pem
+config.yml
+# node junk
+node_modules/
+dist
+.cache
+
